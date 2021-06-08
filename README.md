@@ -1,6 +1,6 @@
 # DTS21-B015-TeamProject
 
-![image](https://user-images.githubusercontent.com/42896957/121203072-04748600-c8a0-11eb-9011-db1ca8f5e8ef.png)
+![image](https://user-images.githubusercontent.com/42896957/121205171-a3e64880-c8a1-11eb-9a46-203e7a32f748.png)
 
 # Yang sudah dikerjakan
 1. Header
