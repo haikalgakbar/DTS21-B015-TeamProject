@@ -1,0 +1,354 @@
+/* Root element */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whyte, sans-serif;
+    font-style: normal;
+    font-size: var(--t2);
+    line-height: 1.4;
+    color: rgb(40, 40, 40);
+    word-break: break-word;
+    text-rendering: optimizelegibility;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+}
+
+/* Independent element */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.wrapper {
+    height: 100%;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    transform: translateY(-.2rem);
+}
+
+.btn:active {
+    transform: translateY(.2rem);
+}
+
+.btn {
+    border: 3px solid rgb(40, 40, 40);
+    padding: 12px 24px;
+    margin-bottom: 2rem;
+    display: inline-block;
+    border-radius: .8rem;
+    transition: all 0.5s;
+}
+
+.btn-primary {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: black;
+}
+
+/* Header element start */
+.header-wrapper {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    width: 30%;
+    float: left;
+}
+
+.logo {
+    margin-top: 1.5rem;
+    width: 5%;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: 70px;
+    padding: 0 .5rem;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.sign-up {
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    color: white;
+    background-color: black;
+}
+
+.header-right a:hover {
+    transform: translateY(-.2rem);
+}
+
+.header-right a:active {
+    transform: translateY(.2rem);
+}
+
+/* Header element stop*/
+/**/
+/* Hero element start*/
+
+.hero {
+    background-image: url(/img//hero/hero-img.png);
+    background-size: cover;
+    background-color: #fff;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 180px 0 100px 0;
+}
+
+.hero-content {
+    text-align: center;
+    height: 100%;
+}
+
+.hero-header {
+    height: 70%;
+}
+
+.hero-header h1 {
+    font-size: 5rem;
+}
+
+.hero-header p {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.hero-btn {
+    height: 30%;
+    margin: 2rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Hero element stop*/
+/**/
+/* Customer element start*/
+
+.customer-img {
+    padding: 2rem 0;
+    margin: 0 10rem;
+}
+
+.customer-btn {
+    font-weight: 700;
+}
+
+.customer {
+    text-align: center;
+}
+
+.customer-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-img-item {
+    padding: 2rem;
+    flex: auto;
+}
+
+/* Customer element stop*/
+/**/
+/* Figjam element start*/
+
+.figjam {
+    background-image: url(/img/figjam/figjam.png);
+    background-size: cover;
+    background-color: #fff;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 180px 0 100px 0;
+}
+
+.figjam-content {
+    width: 100%;
+}
+
+.figjam-text-wrapper {
+    width: 50%;
+}
+
+.figjam-header {
+    margin: 1rem 0;
+}
+
+.figjam-header p {
+    font-size: 1.5rem;
+}
+
+.figjam-beta {
+    border: 1px solid rgb(162, 89, 255);
+    padding: .2rem 1rem;
+    display: inline-block;
+    border-radius: .2rem;
+    background-color: white;
+    color: rgb(162, 89, 255);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.figjam-text h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+.figjam-btn {
+    margin: 4rem 0;
+    font-weight: 700;
+}
+
+/* Figjam element stop*/
+/**/
+/* Silos element start*/
+
+.silos {
+    background-image: url(/img/silos/design-silos.png);
+    background-size: cover;
+    background-color: #fff;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 180px 0 100px 0;
+}
+
+
+.silos-content {
+    display: flex;
+    width: 100%;
+}
+
+.silos-text-wrapper {
+    width: 50%;
+}
+
+.silos-header {
+    margin: 1rem 0;
+}
+
+.silos-header p {
+    font-size: 1.5rem;
+}
+
+.silos-beta {
+    border: 1px solid rgb(162, 89, 255);
+    padding: .2rem 1rem;
+    display: inline-block;
+    border-radius: .2rem;
+    background-color: white;
+    color: rgb(162, 89, 255);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.silos-text h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+.silos-btn {
+    margin: 4rem 0;
+    font-weight: 700;
+}
+
+/* Hero element stop*/
+/**/
+/* Testimonial element start*/
+
+.testimonial {
+    background-color: black;
+    padding: 3rem 10rem;
+    color: white;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonial-img {
+    width: 30%;
+}
+
+.testimonial-img img {
+    border-radius: 50%;
+    width: 70%;
+    padding: 2rem;
+}
+
+.testimonial-text {
+    padding: 2rem;
+    font-size: 1.5rem;
+    width: 70%;
+}
+
+.testimonial-text p {
+    margin-top: 1rem;
+}
+
+/* Testimonial element stop*/
+/**/
+/* Footer element start*/
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 10rem;
+    padding: 2rem 0;
+}
+
+.left-footer {
+    float: left;
+}
+
+.left-footer img {
+    width: 2rem;
+}
+
+/* Footer element start*/
