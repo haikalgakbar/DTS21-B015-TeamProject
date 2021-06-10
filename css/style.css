@@ -337,17 +337,15 @@ a {
 /* Footer element start*/
 
 .footer {
+    text-align: center;
     background-color: black;
     color: white;
     height: 10rem;
     padding: 2rem 0;
+    font-size: .8rem;
 }
 
-.left-footer {
-    float: left;
-}
-
-.left-footer img {
+.footer img {
     width: 2rem;
 }
 
